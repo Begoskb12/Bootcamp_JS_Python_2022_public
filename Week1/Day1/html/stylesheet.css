@@ -1,0 +1,60 @@
+
+/*universal selector*/
+* {
+    background-color: rgb(252, 248, 248);
+}
+
+h1 {                           /* Selector */
+    color: rgb(0, 179, 255);                   /* Declaration 1 */
+    font-size: 24px;               /* Declaration 2 */
+    text-align: center;            /*Centre Alignment*/
+}
+
+/*this is id*/
+#welcome{
+    color: red;
+}
+
+h2,p {                           /* Selector */
+    color: rgb(154, 156, 155);                   /* Declaration 1 */
+    font-size: 10px;               /* Declaration 2 */
+
+}
+
+/*all of the childs (direct and not direct)*/
+div p {
+    background-color: rgb(252, 248, 248);
+
+}
+
+/*just for the direct chlds*/
+div > p {
+    background-color: gray;
+
+}
+
+div ~ p {
+    background-color: rgb(219, 219, 247);
+
+}
+
+div + p {
+    background-color: chocolate;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+
+
+
