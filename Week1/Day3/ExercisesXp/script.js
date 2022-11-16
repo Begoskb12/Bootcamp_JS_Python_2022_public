@@ -1,69 +1,69 @@
-// //~~~~~~~~~~~~   Exercise 1: Simple if/else statement~~~~~~~~~~~~ 
+//~~~~~~~~~~~~   Exercise 1: Simple if/else statement~~~~~~~~~~~~ 
 
-// // Create 2 variables, x and y. Each of them should have a different numeric value.
-// let x = 12;
-// let y = 25;
+// Create 2 variables, x and y. Each of them should have a different numeric value.
+let x = 12;
+let y = 25;
 
-// // Write an if/else statement that checks which number is bigger.
+// Write an if/else statement that checks which number is bigger.
 
-// if (x > y) {
-//     console.log(`${x} is the biggest number`) ;
-//     alert(`${x} is the biggest number`); 
-// } else {
-//     console.log(`${y} is the biggest number`);
-//     alert(`${y} is the biggest number`); 
-// }
-
-
-// //~~~~~~~~~~~~   Exercise 2: Chihuahua~~~~~~~~~~~~ 
-// // Create a variable called newDog where it’s value is “Chihuahua”.
-// let newDog = "Chihuahua";
-
-// // Check and display how many letters are in newDog.
-// let newDogLength = newDog.length;
-
-// console.log(`${newDog} has ${newDogLength} characters.`);
-
-// // Display the newDog variable in uppercase and then in lowercase (no need to create new variables, just console.log twice).
-// console.log(newDog.toUpperCase());
-// console.log(newDog.toLowerCase());
+if (x > y) {
+    console.log(`${x} is the biggest number`) ;
+    alert(`${x} is the biggest number`); 
+} else {
+    console.log(`${y} is the biggest number`);
+    alert(`${y} is the biggest number`); 
+}
 
 
-// /*Check if the variable newDog is equal to “Chihuahua”
-//     if it does, display ‘I love Chihuahuas, it’s my favorite dog breed’
-//     else, console.log ‘I dont care, I prefer cats’ */
+//~~~~~~~~~~~~   Exercise 2: Chihuahua~~~~~~~~~~~~ 
+// Create a variable called newDog where it’s value is “Chihuahua”.
+let newDog = "Chihuahua";
 
-// if (newDog === "Chihuahua"){
-//     console.log(`I love ${newDog}s,  it’s my favorite dog breed`) ;
-//     alert(`I love ${newDog}s,  it’s my favorite dog breed`); 
+// Check and display how many letters are in newDog.
+let newDogLength = newDog.length;
 
-// } else {
-//     console.log(`I dont care, I prefer cats`) ;
+console.log(`${newDog} has ${newDogLength} characters.`);
 
-// };
+// Display the newDog variable in uppercase and then in lowercase (no need to create new variables, just console.log twice).
+console.log(newDog.toUpperCase());
+console.log(newDog.toLowerCase());
+
+
+/*Check if the variable newDog is equal to “Chihuahua”
+    if it does, display ‘I love Chihuahuas, it’s my favorite dog breed’
+    else, console.log ‘I dont care, I prefer cats’ */
+
+if (newDog === "Chihuahua"){
+    console.log(`I love ${newDog}s,  it’s my favorite dog breed`) ;
+    alert(`I love ${newDog}s,  it’s my favorite dog breed`); 
+
+} else {
+    console.log(`I dont care, I prefer cats`) ;
+
+};
 
 
 //~~~~~~~~~~~~   Exercise 3: Even or Odd~~~~~~~~~~~~ 
 
 // Prompt the user for a number and save it to a variable.
-// let inputNumber = prompt('Please enter a number.');
-// console.log(`User has input the number ${inputNumber}`) ;
+let inputNumber = prompt('Please enter a number.');
+console.log(`User has input the number ${inputNumber}`) ;
 
 // // Check whether the variable is even or odd.
 // //     If it is even, display: “x is an even number”. Where x is the actual number the user chose.
 // //     If it is odd, display: “x is an odd number”. Where x is the actual number the user chose.
 
-// let modulo = inputNumber % 2;
+let modulo = inputNumber % 2;
 
-// if(modulo === 0){
-//     console.log(`${inputNumber} is an even number`) ;
+if(modulo === 0){
+    console.log(`${inputNumber} is an even number`) ;
   
-//  }
-//  else {
-//     console.log(`${inputNumber} is an odd number`) ;
+ }
+ else {
+    console.log(`${inputNumber} is an odd number`) ;
     
 
-//  };
+ };
 
 //~~~~~~~~~~~~   Exercise 4: Group Chat ~~~~~~~~~~~~ 
 
